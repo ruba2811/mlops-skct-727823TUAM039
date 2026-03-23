@@ -16,7 +16,7 @@ df.columns = ["datetime", "price"]
 
 df["datetime"] = pd.to_datetime(df["datetime"])
 
-
+# Update 1
 df["hour"] = df["datetime"].dt.hour
 df["day"] = df["datetime"].dt.day
 df["month"] = df["datetime"].dt.month
